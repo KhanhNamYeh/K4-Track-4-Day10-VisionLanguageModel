@@ -1,0 +1,29 @@
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 3/713 [00:00<00:24, 29.35it/s]Loading weights:   7%|▋         | 53/713 [00:00<00:02, 301.14it/s]Loading weights:  15%|█▍        | 104/713 [00:00<00:01, 389.79it/s]Loading weights:  22%|██▏       | 158/713 [00:00<00:01, 446.29it/s]Loading weights:  30%|██▉       | 212/713 [00:00<00:01, 477.14it/s]Loading weights:  37%|███▋      | 264/713 [00:00<00:00, 491.49it/s]Loading weights:  44%|████▍     | 314/713 [00:00<00:00, 491.70it/s]Loading weights:  51%|█████▏    | 367/713 [00:00<00:00, 503.23it/s]Loading weights:  93%|█████████▎| 662/713 [00:00<00:00, 1262.83it/s]Loading weights: 100%|██████████| 713/713 [00:00<00:00, 761.34it/s] 
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 16/311  1s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 96/311  17s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 176/311  41s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 256/311  56s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+E0 [test] n=311 valid=0.920 P=0.120 R=0.067 F1=0.086 CI95=0.061-0.114 meanIoU=0.598 FP/img=0.92
+   pothole  P=0.286 R=0.083 F1=0.128
+   crack    P=0.033 R=0.023 F1=0.027
+   manhole  P=0.289 R=0.135 F1=0.184

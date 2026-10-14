@@ -1,0 +1,12 @@
+{'file': 'e3_good_0.jpg', 'image_id': 'vlcsnap-2025-02-18-23h27m49s136', 'tp': 3, 'fp': 0, 'fn': 0, 'gt': ['pothole', 'pothole', 'manhole'], 'pred': ['manhole', 'pothole', 'pothole']}
+{'file': 'e3_good_1.jpg', 'image_id': 'vlcsnap-2025-02-18-23h13m52s540', 'tp': 2, 'fp': 0, 'fn': 0, 'gt': ['manhole', 'manhole'], 'pred': ['manhole', 'manhole']}
+{'file': 'e3_good_2.jpg', 'image_id': 'vlcsnap-2025-02-18-23h13m55s630', 'tp': 2, 'fp': 0, 'fn': 0, 'gt': ['manhole', 'manhole'], 'pred': ['manhole', 'manhole']}
+{'file': 'e3_good_3.jpg', 'image_id': 'vlcsnap-2025-02-18-23h13m56s767', 'tp': 2, 'fp': 0, 'fn': 0, 'gt': ['manhole', 'manhole'], 'pred': ['manhole', 'manhole']}
+{'file': 'e3_bad_0.jpg', 'image_id': 'vlcsnap-2025-02-18-23h30m28s990', 'tp': 0, 'fp': 2, 'fn': 7, 'gt': ['pothole', 'pothole', 'pothole', 'pothole', 'crack', 'crack', 'crack'], 'pred': ['crack', 'pothole']}
+{'file': 'e3_bad_1.jpg', 'image_id': 'vlcsnap-2025-02-19-17h03m06s413', 'tp': 0, 'fp': 4, 'fn': 5, 'gt': ['pothole', 'pothole', 'crack', 'crack', 'crack'], 'pred': ['crack', 'pothole', 'pothole', 'pothole']}
+{'file': 'e3_bad_2.jpg', 'image_id': 'vlcsnap-2025-02-18-23h15m37s152', 'tp': 0, 'fp': 7, 'fn': 1, 'gt': ['manhole'], 'pred': ['crack', 'crack', 'crack', 'crack', 'crack', 'crack', 'crack']}
+{'file': 'e3_bad_3.jpg', 'image_id': 'vlcsnap-2025-02-18-23h24m34s484', 'tp': 0, 'fp': 4, 'fn': 4, 'gt': ['crack', 'crack', 'crack', 'crack'], 'pred': ['crack', 'crack', 'pothole', 'pothole']}
+{'file': 'e0_good_0.jpg', 'image_id': 'vlcsnap-2025-02-18-23h13m55s630', 'tp': 2, 'fp': 0, 'fn': 0, 'gt': ['manhole', 'manhole'], 'pred': ['manhole', 'manhole']}
+{'file': 'e0_good_1.jpg', 'image_id': 'vlcsnap-2025-02-18-23h14m03s217', 'tp': 2, 'fp': 0, 'fn': 0, 'gt': ['manhole', 'manhole'], 'pred': ['manhole', 'manhole']}
+{'file': 'e0_bad_0.jpg', 'image_id': 'vlcsnap-2025-02-19-17h03m02s980', 'tp': 0, 'fp': 3, 'fn': 6, 'gt': ['pothole', 'pothole', 'pothole', 'pothole', 'crack', 'crack'], 'pred': ['crack', 'manhole', 'manhole']}
+{'file': 'e0_bad_1.jpg', 'image_id': 'vlcsnap-2025-02-19-17h03m06s413', 'tp': 0, 'fp': 4, 'fn': 5, 'gt': ['pothole', 'pothole', 'crack', 'crack', 'crack'], 'pred': ['pothole', 'pothole', 'crack', 'manhole']}

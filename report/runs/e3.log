@@ -1,0 +1,45 @@
+[e3] base=E3 lora={'r': 16, 'alpha': 32, 'dropout': 0.05, 'targets': 'llm+vit'} projector=True coord=norm1000 train_images=1422 steps=100
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 3/713 [00:00<00:25, 27.71it/s]Loading weights:   7%|▋         | 49/713 [00:00<00:02, 271.74it/s]Loading weights:  14%|█▍        | 103/713 [00:00<00:01, 382.65it/s]Loading weights:  22%|██▏       | 157/713 [00:00<00:01, 435.01it/s]Loading weights:  29%|██▉       | 207/713 [00:00<00:01, 454.82it/s]Loading weights:  36%|███▌      | 257/713 [00:00<00:00, 467.47it/s]Loading weights:  44%|████▎     | 311/713 [00:00<00:00, 484.71it/s]Loading weights:  51%|█████     | 361/713 [00:00<00:00, 488.06it/s]Loading weights:  80%|███████▉  | 570/713 [00:00<00:00, 979.05it/s]Loading weights: 100%|██████████| 713/713 [00:00<00:00, 733.97it/s]
+LoRA modules=348  projector tensors=24  trainable=148,426,752 / 2,660,479,488
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/content/lab/lab10/vlm.py:236: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sched.step()
+{"step": 1, "loss": 2.049345314502716, "lr": 8e-05, "grad_norm": NaN, "min": 0.030104589462280274}
+{"step": 10, "loss": 1.0764346569776535, "lr": 0.00019863613034027224, "grad_norm": 1.2566924095153809, "min": 0.23392468690872192}
+{"step": 20, "loss": 0.7010636866092682, "lr": 0.0001879473751206489, "grad_norm": 3.3719165325164795, "min": 0.4592367132504781}
+{"step": 30, "loss": 0.6383835792541503, "lr": 0.00016772815716257412, "grad_norm": 1.3711894750595093, "min": 0.6823235193888346}
+{"step": 40, "loss": 0.6232858963310719, "lr": 0.00014016954246529696, "grad_norm": 0.83586585521698, "min": 0.9111979484558106}
+{"step": 50, "loss": 0.5883965857326985, "lr": 0.00010825793454723325, "grad_norm": 1.0632038116455078, "min": 1.1355619152386984}
+{"step": 60, "loss": 0.5953358486294746, "lr": 7.54514512859201e-05, "grad_norm": 1.6583458185195923, "min": 1.367891788482666}
+{"step": 70, "loss": 0.5994612164795399, "lr": 4.530518418775733e-05, "grad_norm": 0.7521938681602478, "min": 1.5936436692873637}
+{"step": 80, "loss": 0.5960767485201359, "lr": 2.1085949060360654e-05, "grad_norm": 3.2132325172424316, "min": 1.8231688896814982}
+{"step": 90, "loss": 0.5524966388940811, "lr": 5.418275829936537e-06, "grad_norm": 0.8719107508659363, "min": 2.0494013945261638}
+{"step": 100, "loss": 0.5674332827329636, "lr": 0.0, "grad_norm": 1.130569338798523, "min": 2.274552277723948}
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 16/311  3s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 96/311  35s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 176/311  55s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 256/311  76s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+E3 [test] n=311 valid=0.990 P=0.349 R=0.336 F1=0.343 CI95=0.304-0.383 meanIoU=0.677 FP/img=1.17
+   pothole  P=0.194 R=0.165 F1=0.179
+   crack    P=0.270 R=0.324 F1=0.295
+   manhole  P=0.798 R=0.485 F1=0.603

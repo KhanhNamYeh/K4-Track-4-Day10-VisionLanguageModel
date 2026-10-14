@@ -1,0 +1,72 @@
+[
+  {
+    "file": "e0_good_0.jpg",
+    "image_id": "vlcsnap-2025-02-18-23h13m55s630",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "gt": [
+      "manhole",
+      "manhole"
+    ],
+    "pred": [
+      "manhole",
+      "manhole"
+    ]
+  },
+  {
+    "file": "e0_good_1.jpg",
+    "image_id": "vlcsnap-2025-02-18-23h14m03s217",
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "gt": [
+      "manhole",
+      "manhole"
+    ],
+    "pred": [
+      "manhole",
+      "manhole"
+    ]
+  },
+  {
+    "file": "e0_bad_0.jpg",
+    "image_id": "vlcsnap-2025-02-19-17h03m02s980",
+    "tp": 0,
+    "fp": 3,
+    "fn": 6,
+    "gt": [
+      "pothole",
+      "pothole",
+      "pothole",
+      "pothole",
+      "crack",
+      "crack"
+    ],
+    "pred": [
+      "crack",
+      "manhole",
+      "manhole"
+    ]
+  },
+  {
+    "file": "e0_bad_1.jpg",
+    "image_id": "vlcsnap-2025-02-19-17h03m06s413",
+    "tp": 0,
+    "fp": 4,
+    "fn": 5,
+    "gt": [
+      "pothole",
+      "pothole",
+      "crack",
+      "crack",
+      "crack"
+    ],
+    "pred": [
+      "pothole",
+      "pothole",
+      "crack",
+      "manhole"
+    ]
+  }
+]

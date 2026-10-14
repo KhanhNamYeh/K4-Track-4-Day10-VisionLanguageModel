@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 3/713 [00:00<00:25, 28.15it/s]Loading weights:   7%|▋         | 49/713 [00:00<00:02, 273.72it/s]Loading weights:  14%|█▍        | 103/713 [00:00<00:01, 385.65it/s]Loading weights:  22%|██▏       | 157/713 [00:00<00:01, 436.76it/s]Loading weights:  29%|██▉       | 207/713 [00:00<00:01, 458.26it/s]Loading weights:  36%|███▌      | 257/713 [00:00<00:00, 470.13it/s]Loading weights:  44%|████▎     | 311/713 [00:00<00:00, 485.95it/s]Loading weights:  51%|█████     | 361/713 [00:00<00:00, 487.96it/s]Loading weights:  80%|████████  | 572/713 [00:00<00:00, 985.67it/s]Loading weights: 100%|██████████| 713/713 [00:00<00:00, 737.82it/s]
+nạp lại 24 tensor projector
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 16/40  4s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+{"exp": "e3", "identical_outputs": 31, "n": 40}

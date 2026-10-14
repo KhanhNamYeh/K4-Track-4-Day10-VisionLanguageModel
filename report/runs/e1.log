@@ -1,0 +1,44 @@
+[e1] base=E1 lora={'r': 16, 'alpha': 32, 'dropout': 0.05, 'targets': 'llm'} projector=False coord=norm1000 train_images=1422 steps=100
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 3/713 [00:00<00:24, 29.11it/s]Loading weights:   7%|▋         | 53/713 [00:00<00:02, 300.92it/s]Loading weights:  15%|█▍        | 104/713 [00:00<00:01, 387.15it/s]Loading weights:  22%|██▏       | 158/713 [00:00<00:01, 440.65it/s]Loading weights:  30%|██▉       | 212/713 [00:00<00:01, 472.82it/s]Loading weights:  37%|███▋      | 262/713 [00:00<00:00, 481.52it/s]Loading weights:  44%|████▍     | 313/713 [00:00<00:00, 485.92it/s]Loading weights:  51%|█████▏    | 367/713 [00:00<00:00, 501.79it/s]Loading weights:  92%|█████████▏| 654/713 [00:00<00:00, 1231.79it/s]Loading weights: 100%|██████████| 713/713 [00:00<00:00, 754.58it/s] 
+LoRA modules=252  projector tensors=0  trainable=33,030,144 / 2,654,188,032
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+{"step": 1, "loss": 2.049345314502716, "lr": 8e-05, "grad_norm": 6.500115871429443, "min": 0.03012389341990153}
+{"step": 10, "loss": 1.0407936558127404, "lr": 0.00019863613034027224, "grad_norm": 0.5286365747451782, "min": 0.1881783684094747}
+{"step": 20, "loss": 0.7323776677250862, "lr": 0.0001879473751206489, "grad_norm": 0.5733183026313782, "min": 0.36440482139587405}
+{"step": 30, "loss": 0.6821055352687836, "lr": 0.00016772815716257412, "grad_norm": 0.4721392095088959, "min": 0.5382813811302185}
+{"step": 40, "loss": 0.6518663004040718, "lr": 0.00014016954246529696, "grad_norm": 0.45005103945732117, "min": 0.7124556581179301}
+{"step": 50, "loss": 0.6362664937973023, "lr": 0.00010825793454723325, "grad_norm": 0.3877158463001251, "min": 0.8867215871810913}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"step": 60, "loss": 0.6379469998180867, "lr": 7.54514512859201e-05, "grad_norm": 0.43163061141967773, "min": 1.0689433693885804}
+{"step": 70, "loss": 0.648428051173687, "lr": 4.530518418775733e-05, "grad_norm": 0.43467459082603455, "min": 1.2434425433476766}
+{"step": 80, "loss": 0.6433656230568886, "lr": 2.1085949060360654e-05, "grad_norm": 0.535362958908081, "min": 1.4182477752367655}
+{"step": 90, "loss": 0.6200331553816796, "lr": 5.418275829936537e-06, "grad_norm": 0.4369858503341675, "min": 1.5941454609235128}
+{"step": 100, "loss": 0.6381496012210846, "lr": 0.0, "grad_norm": 0.3565492331981659, "min": 1.7729962825775147}
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 16/311  7s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 96/311  42s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 176/311  69s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  predict 256/311  91s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+E1 [test] n=311 valid=0.974 P=0.238 R=0.247 F1=0.242 CI95=0.210-0.278 meanIoU=0.673 FP/img=1.49
+   pothole  P=0.288 R=0.264 F1=0.276
+   crack    P=0.129 R=0.184 F1=0.152
+   manhole  P=0.838 R=0.350 F1=0.494
