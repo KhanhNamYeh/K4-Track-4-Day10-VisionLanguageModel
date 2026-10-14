@@ -1,4 +1,4 @@
-Họ tên: KhanhNamYeh (MSSV 523h0148)
+Họ tên: Nguyễn Đặng Nam Khánh (MSSV 2A202602741)
 `dataset_version`: d10-21e4070301
 
 > Phần cứng: Colab **G4** (NVIDIA RTX PRO 6000 Blackwell Server Edition, 96 GB), điều khiển bằng `colab` CLI; Python 3.13, torch 2.11, transformers 5.19.0, peft 0.21.2, bitsandbytes 0.50.2.
